@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: aliceblue;
 }
 
 .App-logo {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img{
+
+  width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin: 10px;
+    transition: 0.5s ease;
 }
